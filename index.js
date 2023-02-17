@@ -5,6 +5,7 @@ import { Command } from 'commander';
 import getGitVersion from './src/getGitVersion.js';
 
 const gitVersion = await getGitVersion()
+console.log(`git version: ${gitVersion}`);
 
 // Declares and displays colored text in terminal
 const firstName = 'Jenny';
