@@ -1,0 +1,21 @@
+body {
+  font-family: 'Inter', sans-serif;
+  height: 100vh;
+  background-color: #212121;
+}
+
+h1,
+p {
+  color: white;
+  text-align: left;
+  margin: 30px 15px;
+}
+
+p {
+  font-size: 1em;
+}
+
+.container {
+  background-color: #e8e8e8;
+  color: #fff;
+}
